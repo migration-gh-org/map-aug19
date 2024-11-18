@@ -31,11 +31,14 @@ MapApp consists of several SwiftUI views and a view model responsible for managi
 - `LocationViewModel`: The view model orchestrates data flow and interactions, handling search queries, location selection, and map region updates.
 
 ## Screenshots
-
-![Home Page](https://github.com/sabbirn26/MapApp/raw/main/ScreenShots/Screenshot-01.png)
-![Location DropDown](https://github.com/sabbirn26/MapApp/raw/main/ScreenShots/Screenshot-02.png)
-![Location Details](https://github.com/sabbirn26/MapApp/raw/main/ScreenShots/Screenshot-03.png)
-![Location Description and Map](https://github.com/sabbirn26/MapApp/raw/main/ScreenShots/Screenshot-04.png)
+<div align="center">
+  <div style="display: flex; justify-content: space-between;">
+    <img src="ScreenShots/Screenshot-01.png" width="250" alt="Home Page"/>
+    <img src="ScreenShots/Screenshot-02.png" width="250" alt="Location DropDown"/>
+    <img src="ScreenShots/Screenshot-03.png" width="250" alt="Location Details"/>
+    <img src="ScreenShots/Screenshot-04.png" width="250" alt="Location Description and Map"/>
+  </div>
+</div>
 
 
 ## Installation
