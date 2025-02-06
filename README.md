@@ -1,56 +1,73 @@
-# MapApp
+# 📺 MapApp
 
-MapApp is an iOS application built with SwiftUI that allows users to explore different locations and view details about them.
+**MapApp** is a sleek and intuitive iOS application built with **SwiftUI**, allowing users to explore different locations and view detailed information about them.
 
-## Overview
+## ✨ Overview
 
-MapApp provides users with an intuitive interface to discover various locations on a map. Users can interact with the map to explore different areas and tap on markers to access detailed information about each location.
+MapApp provides users with an interactive experience to **explore various locations on a map**. Users can tap on markers to reveal details, search for specific locations, and seamlessly navigate through the app.
 
-## Features
+## 🚀 Features
 
-- **Map View**: Explore locations on an interactive map powered by MapKit.
-- **Location Details**: View detailed information about each location, including images, descriptions, and related links.
-- **Search**: Easily search for specific locations by name or city using the search functionality.
-- **Navigation**: Navigate through different locations seamlessly with intuitive controls.
+- **Interactive Map** – Explore locations using a dynamic **MapKit-powered** interface.  
+- **Search Functionality** – Quickly find locations by name or city.  
+- **Location Details** – View in-depth information, including **images, descriptions, and links**.  
+- **Seamless Navigation** – Effortlessly switch between map views and detailed pages.  
 
-## Architecture
+## 🏭️ Architecture
 
-MapApp follows the Model-View-Controller (MVC) architectural pattern:
+MapApp follows the **Model-View-Controller (MVC)** architecture for maintainability and scalability:
 
-- **Model**: The `Location` model represents the data structure for each location, including properties such as name, coordinates, description, and images.
-- **View**: SwiftUI views such as `LocationView`, `LocationListView`, and `LocationDetailsView` handle the presentation and user interface aspects of the app.
-- **Controller**: The `LocationViewModel` acts as the controller, managing the application logic, data flow, and interactions between views and the underlying data model.
+- **Model** – `Location` struct stores data like name, coordinates, description, and images.
+- **View** – SwiftUI views such as `LocationView`, `LocationListView`, and `LocationDetailsView` handle UI presentation.
+- **Controller** – `LocationViewModel` manages data flow, search queries, and interactions.
 
-## Code Explanation
+## 🛠️ Code Structure
 
-MapApp consists of several SwiftUI views and a view model responsible for managing the application's state and interactions.
+- `LocationView` – Displays the main map interface with **search and location previews**.  
+- `LocationListView` – Shows a list of all available locations.  
+- `LocationDetailsView` – Provides **detailed information, images, and links** for a selected location.  
+- `LocationViewModel` – Manages **data retrieval, selection, and search functionality**.
 
-- `LocationView`: This view displays the main map interface along with search functionality and location previews.
-- `LocationListView`: A list view displaying all available locations for exploration.
-- `LocationDetailsView`: This view presents detailed information about a selected location, including images and related links.
-- `LocationViewModel`: The view model orchestrates data flow and interactions, handling search queries, location selection, and map region updates.
+## 📸 Screenshots
 
-## Screenshots
-<div align="center">
-  <div style="display: flex; justify-content: space-between;">
-    <img src="ScreenShots/Screenshot-01.png" width="250" alt="Home Page"/>
-    <img src="ScreenShots/Screenshot-02.png" width="250" alt="Location DropDown"/>
-    <img src="ScreenShots/Screenshot-03.png" width="250" alt="Location Details"/>
-    <img src="ScreenShots/Screenshot-04.png" width="250" alt="Location Description and Map"/>
-  </div>
-</div>
+<table align="center">
+  <tr>
+    <td align="center"><img src="ScreenShots/Screenshot-01.png" width="300" alt="Home Page"/></td>
+    <td align="center"><img src="ScreenShots/Screenshot-02.png" width="300" alt="Location DropDown"/></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="ScreenShots/Screenshot-03.png" width="300" alt="Location Details"/></td>
+    <td align="center"><img src="ScreenShots/Screenshot-04.png" width="300" alt="Location Description and Map"/></td>
+  </tr>
+</table>
 
+## 💾 Installation
 
-## Installation
+To install and run MapApp on your iOS device:
 
-To install MapApp on your iOS device, follow these steps:
+1️⃣ **Clone** the repository to your local machine:  
+   ```sh
+   git clone https://github.com/your-username/MapApp.git
+   ```
+2️⃣ **Open** the project in Xcode.  
+3️⃣ **Build & Run** the app on an **iOS device or simulator**.
 
-1. Clone the repository to your local machine.
-2. Open the project in Xcode.
-3. Build and run the project on your iOS device or simulator.
+## 📌 Requirements
 
-## Requirements
+✅ **iOS 14.0+**  
+✅ **Xcode 12.0+**  
 
-- iOS 14.0+
-- Xcode 12.0+
+## 👏 Acknowledgments  
 
+Special thanks to:  
+- [SwiftfulThinking](https://www.youtube.com/@SwiftfulThinking) for SwiftUI tutorials and inspiration.  
+
+## 📧 Contact  
+
+💼 **Sabbir Nasir**  
+- 🔗 LinkedIn: [Sabbir Nasir](https://www.linkedin.com/in/sabbirn26/)  
+- 🛠️ GitHub: [@sabbirn26](https://github.com/sabbirn26)  
+
+---
+
+🚀 **Made with ❤️ using SwiftUI!**  
